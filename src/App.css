@@ -1,0 +1,54 @@
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+.general {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 60px;
+}
+.box {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 20px;
+    transition: all .4s ease-out;
+}
+.box:hover {
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.name {
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(109, 109, 109);
+}
+.nameUser {
+    font-size: 23px;
+    font-weight: 400;
+    color: rgb(24, 113, 10);
+}
+.phone {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(54, 203, 203);
+}
+.box__btn {
+    color: red;
+    display: flex;
+    font-weight: 600;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: #ffffff;
+    transition: all .4s ease-in-out;
+}
+.box__btn:hover {
+    background-color: red;
+    color: #ffffff;
+}
